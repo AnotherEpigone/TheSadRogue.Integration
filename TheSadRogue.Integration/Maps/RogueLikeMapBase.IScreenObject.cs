@@ -145,7 +145,7 @@ namespace SadRogue.Integration.Maps
         }
 
         /// <inheritdoc/>
-        public bool UseMouse
+        public virtual bool UseMouse
         {
             get => BackingObject.UseMouse;
             set => BackingObject.UseMouse = value;
